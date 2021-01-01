@@ -18,6 +18,7 @@ The output will be:
 
 Standard: 
 - `javac csv2yaml.java&java csv2yaml <name>`
+
 Using JRun:
 - `jrun csv2yaml <name>`
 
@@ -30,5 +31,6 @@ The outpuut will be:
 
 Standard:
 - `javac csv2yaml.java&java csv2yaml <name> <regex>`
+
 Using JRun:
 - `jrun csv2yaml <name> <regex>`
