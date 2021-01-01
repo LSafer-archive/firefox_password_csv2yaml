@@ -24,7 +24,7 @@ public class csv2yaml {
 		if (!input.exists() || input.isDirectory())
 			throw new IllegalArgumentException(args[0] + " is not a file!");
 
-		List<String> unexpected = new ArrayList();
+		List<String> unexpected = new ArrayList<>();
 		List<Map<String, String>> parsed = parseCSV(readFile(input), unexpected::add);
 
 		{//parsed
